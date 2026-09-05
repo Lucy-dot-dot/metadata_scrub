@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Metadata Scrub
+GenericName=Metadata Remover
+Comment=Strip metadata from files
+Exec=/home/lucys/.cargo/bin/metadata_scrub
+Icon=metadata_scrub
+Terminal=false
+Categories=Utility;FileTools;
+Keywords=metadata;privacy;exif;
+StartupWMClass=metadata_scrub

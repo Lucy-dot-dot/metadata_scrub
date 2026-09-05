@@ -1,0 +1,18 @@
+[package]
+name = "metadata_scrub"
+version = "0.1.0"
+edition = "2024"
+
+[build-dependencies]
+winresource = "0.1"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4.6", features = ["derive"] }
+eframe = "0.36"
+rfd = "0.17"
+walkdir = "2"
+
+[profile.release]
+lto = "thin"
+strip = true
